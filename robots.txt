@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+Allow: /sitemap.htm
+
+Disallow: /*.php$
+Disallow: /*.js$
+Disallow: /*.inc$
+Disallow: /*.css$
+Disallow: /*?*
+Disallow: /*?
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: duggmirror
+Disallow: /
+
+User-agent: *
+Disallow: /application/
+Disallow: /assets/
+Disallow: /system/
+Disallow: /assets/uploads/
+Disallow: /asset/grocery_crud/
+Disallow: /asset/images_crud/
+Disallow: /asset/theme/
+Disallow: /adminpanel/login/
+
+
+Sitemap: http://indonesiamendidik.org/sitemap.xml
