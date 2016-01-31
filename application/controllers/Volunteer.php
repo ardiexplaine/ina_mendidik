@@ -1,6 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+// Wahyu Ardie 
+
 class Volunteer extends CI_Controller {
 
 	public $layout = 'layout_width';
